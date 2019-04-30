@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+int main() {
+	 int a,b[100],c=0,d=0,e=0;
+	 cin>>a;
+ 	while(c<a){
+	 cin>>b[c];
+	 c++;
+	 }
+	 for(c=0;c<a;c++){
+	 	for(e=0;e<a;e++){
+	 		if(b[e]>d){
+	 		d=b[e];
+	 		
+		 }
+		 }
+		 for(e=0;e<a;e++){
+			if(d==b[e]){
+			b[e]=0;
+	 		break;
+		 }
+		 }
+	 	cout<<d<<" ";
+		d=0;
+		 }
+	 }
