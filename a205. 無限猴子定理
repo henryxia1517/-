@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+	int c,d,e=0;
+	char a[15],b[15];
+	cin>>a>>b;
+	for(;a[c]!='\0';c++){
+		for(e=0;b[d]!='\0';d++){
+			if(a[c]==b[d]){
+				e=1;
+				d++;
+				break;	
+			}
+		}
+	}
+	if(e==1)cout<<"YES";
+	else if(e==0)cout<<"NO";
+	return 0;
+}
