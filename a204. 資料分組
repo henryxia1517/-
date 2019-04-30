@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+int main() {
+	 int a,b[11],c=0,d=0,e=0;
+	 cin>>a;
+ 	while(c<=a){
+	 cin>>b[c];
+	 c++;
+	 }
+	 for(c=0;c<a;c++){
+	 	if(b[c]>b[a]){
+	 		d++;
+		 }
+		 else if(b[c]<b[a]){
+		 	e++;
+		 }
+	 }
+	 cout<<d<<" "<<e;
+}
