@@ -1,0 +1,17 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main(int argc, char** argv) {
+long N;
+
+while(1)
+{
+    cin>>N;
+
+	if(cin.fail()) break;
+	else if(N%2==1 or N%2==-1)cout<<"奇數"<<endl;
+	else if((int)N%2==0)cout<<"偶數"<<endl; 
+}
+	return 0;
+}
