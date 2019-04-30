@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+int main() {
+	int a,b[20],c,d=0,e,f;
+	cin>>a;
+	for(c=0;c<a;c++){
+		cin>>b[c];
+	}
+	
+	for(c=0;c<a;c++){
+		for(f=0;f<a;f++){
+		if(b[c]==b[f]&&b[f]!=0&&f!=c){
+			e=b[c];
+			break;
+		}
+		if(b[c]==e)break;
+	}
+	}
+	for(c=0;c<a;c++){
+		if(b[c]==e)d=d+1;
+	}
+	cout<<e<<" "<<d;
+	return 0;
+}
