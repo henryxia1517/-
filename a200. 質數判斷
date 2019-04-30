@@ -1,0 +1,23 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main(int argc, char** argv) {
+	int a, b,c;
+   cin >>a;
+   b=sqrt(a);
+   for(c=2;c<=b;c++){
+   	if(a%c==0){
+	   
+   	cout<<"NO"; 
+ 	break;  
+}
+   
+   }
+   
+    if(c>b)cout<<"YES";
+   
+   
+    
+	return 0;
+}
